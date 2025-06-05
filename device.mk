@@ -114,3 +114,4 @@ PRODUCT_SOONG_NAMESPACES += \
 # VNDK
 PRODUCT_PACKAGES += \
     libcomparetf2_shim
+$(call inherit-product, vendor/lindroid/lindroid.mk)
